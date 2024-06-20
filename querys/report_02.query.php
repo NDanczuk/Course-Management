@@ -3,6 +3,7 @@
 require_once 'includes/dbh.inc.php';
 
 function report_02($pdo) 
+// This function executes the query that select the course with the highest number of modules, the query will select multiple courses if they have equal number of modules
 {
     $max_contents = "
     SELECT 
