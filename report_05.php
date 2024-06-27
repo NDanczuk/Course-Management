@@ -14,7 +14,7 @@ $users_data = report_05($pdo); // This variable executes the query function and 
 
 ?>
 
-<body>
+
     <div class="container mt-5">
         <div class="text-center mb-5">
             <h1>List of users that watched to class <?php echo $class_02['content_title']?>: </h1>
@@ -35,7 +35,7 @@ $users_data = report_05($pdo); // This variable executes the query function and 
             ?>
         </div>
     </div>
-</body>
+
 
 <?php
 require_once 'resources/footer.resources.php';

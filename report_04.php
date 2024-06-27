@@ -10,7 +10,7 @@ $all_contents = report_04($pdo); // This variable executes the query function an
 
 ?>
 
-<body>
+
     <div class="container mt-5">
         <div class="text-center mb-5">
             <h1>List of contents and it's respective courses</h1>
@@ -29,7 +29,7 @@ $all_contents = report_04($pdo); // This variable executes the query function an
             ?>
         </div>
     </div>
-</body>
+
 
 <?php
 require_once 'resources/footer.resources.php';

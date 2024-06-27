@@ -12,7 +12,7 @@ if ($user)
 {
 ?>
 
-<body>
+
     <div class="container mt-5">
         <div class="text-center mb-5">
             <h1>User with the highest number of courses</h1>
@@ -23,7 +23,7 @@ if ($user)
             <?php echo "Courses number: " . $user['total_courses']; ?>
         </div>
     </div>
-</body>
+
 
 <?php
 } 

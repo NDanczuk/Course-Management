@@ -12,7 +12,7 @@ if ($most_content_courses && count($most_content_courses) > 0)
 {
 ?> 
 
-<body>
+
     <div class="container mt-5">
         <div class="text-center mb-5">
             <h1>Courses with the highest number of contents</h1>
@@ -30,7 +30,7 @@ if ($most_content_courses && count($most_content_courses) > 0)
             ?>
         </div>
     </div>
-</body>
+
 
 <?php
 
