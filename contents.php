@@ -1,5 +1,10 @@
 <?php
 
+if (isset($_GET['course_title']))
+{
+    $course_title = $_GET['course_title'];
+}
+
 if (isset($_GET['module_id']))
 {
     $module_id = $_GET['module_id'];
@@ -23,6 +28,7 @@ if ($module_contents && count($module_contents) > 0)
     <div class="container mt-5">
         <div class="text-center mb-5">
             <h1>List of contents in <?php echo htmlspecialchars($module_title); ?></h1>
+            <h4><?php echo htmlspecialchars($course_title); ?> > <?php echo htmlspecialchars($module_title); ?></h4>
             <?php
             foreach ($module_contents as $contents) 
             {
